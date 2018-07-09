@@ -1,13 +1,4 @@
 body {
-<<<<<<< HEAD
-  background-color: orange;
-  color: pink;
-  font-family: sans-serif;
-}
-h1 {
-  font-size: 32px;
-  color: #fff;
-=======
   padding-top: 20px;
   background-color: #e6ecf0;
   color: #000;
@@ -68,6 +59,11 @@ h1 {
   font-weight: 600;
   color: #087DE1;
 }
+.card-title-only {
+  padding: 1.25rem;
+  border-bottom: 0;
+  border-radius: 0.25rem 0.25rem 0 0;
+}
 .tweet-card {
   padding: 1.25rem;
   border-radius: 0;
@@ -116,5 +112,4 @@ h1 {
 }
 .footer .fa-heart {
   color: #CE2222;
->>>>>>> 86fa551470780a758a9bf8e1e24f291fbf895724
 }

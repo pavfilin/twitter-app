@@ -29,7 +29,7 @@
             <ul class="stats">
               <li class="stats-item">
                 <b class="stats-title">Твиты</b>
-                <b class="stats-count">57</b>
+                <b class="stats-count" id="tweetsCounter"></b>
               </li>
               <li class="stats-item">
                 <b class="stats-title">Лайки</b>
@@ -47,46 +47,21 @@
       <div class="col-md-8">
         <div class="card mb-3">
           <div class="card-body">
-            <form>
+            <form id="postNewTweet">
               <div class="form-group">
-                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Что нового ?">
+                <input id="tweetText" type="text" class="form-control" id="exampleInputEmail1" placeholder="Что нового ?">
               </div>
               <button type="submit" class="btn btn-primary">Твитнуть</button>
             </form>
           </div>
         </div>
 
-        <div class="card tweet-card tweet-card-rounded-top">
+        <div class="card card-title-only tweet-card-rounded-top">
           <div class="h4 mb-0">Твиты пользователя</div>
         </div>
 
-        <div class="card tweet-card">
-          <div class="tweet-date">08 август 2017 г.</div>
-          <div class="tweet-text font-size-large">
-            <p>Создай сайт за 3 дня c помощью <a href="http://getbootstrap.com" title="ссылка">bootstrap</a></p>
-          </div>
-        </div>
-
-        <div class="card tweet-card">
-          <div class="tweet-date">09 июль 2018 г.</div>
-          <div class="tweet-text font-size-normal">
-            <p>Полосатые коты атаковали марс <a href="http://getbootstrap.com" title="ссылка">фото с марса</a></p>
-          </div>
-        </div>
-
-        <div class="card tweet-card">
-          <div class="tweet-date">15 сентябрь 2018 г.</div>
-          <div class="tweet-text font-size-normal">
-            <p>Новый вирус очишающий компьютеры от барахла при открытии документов Word. <a href="http://getbootstrap.com" title="ссылка">фото авторов</a></p>
-          </div>
-        </div>
-
-        <div class="card tweet-card">
-          <div class="tweet-date">20 октябрь 2019 г.</div>
-          <div class="tweet-text font-size-small">
-            <p>Машина получающая топливо из эфира «У такой смеси низкое содержание смол и серы, это обеспечивает чистоту топливной системы автомобиля. Топливо на испытаниях показало совместимость с обычным автомобильным двигателем без модификаций» <a href="http://getbootstrap.com" title="ссылка">фото водяной машины</a></p>
-          </div>
-        </div>
+        <!-- get list tweets -->
+        <div id="tweet-list"></div>
 
         <footer class="footer">
           <p class="footer-copyright">
