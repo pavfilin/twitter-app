@@ -1,0 +1,53 @@
+.tweet {
+  &-card {
+    padding: 1.25rem;
+    border-radius: 0;
+    border-bottom: 0;
+
+    &:last-child {
+      border-bottom: 1px solid rgba(0, 0, 0, .125);
+      border-radius: 0 0 0.25rem 0.25rem;
+    }
+  }
+
+  &-date {
+    font-size: 14px;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+  }
+
+  &-text {
+     p {
+       margin-bottom: 0;
+       font-size: 20px;
+     }
+
+     a {
+       color: #4ba3f6;
+     }
+  }
+
+  &-rounded-top {
+    border-radius: 0.25rem 0.25rem 0 0;
+  }
+}
+
+.font-size {
+  &-small {
+    p {
+      font-size: 16px;
+    }
+  }
+
+  &-normal {
+    p {
+      font-size: 20px;
+    }
+  }
+
+  &-large {
+    p {
+      font-size: 22px;
+    }
+  }
+}

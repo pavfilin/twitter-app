@@ -1,14 +1,105 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Проект</title>
+    <title>Твиттер - Павел Филинских</title>
     <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Noto+Serif:400,400i&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 <body>
+
+  <div class="container">
+    <div class="row">
+      <!-- left column -->
+      <div class="col-md-4">
+        <div class="card mb-3">
+          <div class="profile-background"></div>
+          <div class="profile-avatar">
+            <img src="img/foto.jpg" alt="Павел Филинских">
+          </div>
+          <div class="card-body">
+            <h2 class="profile-title">Павел Филинских</h2>
+            <div class="profile-description">
+              <p>верстальщик 4-го разряда</p>
+            </div>
+
+            <ul class="stats">
+              <li class="stats-item">
+                <b class="stats-title">Твиты</b>
+                <b class="stats-count">57</b>
+              </li>
+              <li class="stats-item">
+                <b class="stats-title">Лайки</b>
+                <b class="stats-count">156</b>
+              </li>
+              <li class="stats-item">
+                <b class="stats-title">Репост</b>
+                <b class="stats-count">357</b>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- right column -->
+      <div class="col-md-8">
+        <div class="card mb-3">
+          <div class="card-body">
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Что нового ?">
+              </div>
+              <button type="submit" class="btn btn-primary">Твитнуть</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="card tweet-card tweet-card-rounded-top">
+          <div class="h4 mb-0">Твиты пользователя</div>
+        </div>
+
+        <div class="card tweet-card">
+          <div class="tweet-date">08 август 2017 г.</div>
+          <div class="tweet-text font-size-large">
+            <p>Создай сайт за 3 дня c помощью <a href="http://getbootstrap.com" title="ссылка">bootstrap</a></p>
+          </div>
+        </div>
+
+        <div class="card tweet-card">
+          <div class="tweet-date">09 июль 2018 г.</div>
+          <div class="tweet-text font-size-normal">
+            <p>Полосатые коты атаковали марс <a href="http://getbootstrap.com" title="ссылка">фото с марса</a></p>
+          </div>
+        </div>
+
+        <div class="card tweet-card">
+          <div class="tweet-date">15 сентябрь 2018 г.</div>
+          <div class="tweet-text font-size-normal">
+            <p>Новый вирус очишающий компьютеры от барахла при открытии документов Word. <a href="http://getbootstrap.com" title="ссылка">фото авторов</a></p>
+          </div>
+        </div>
+
+        <div class="card tweet-card">
+          <div class="tweet-date">20 октябрь 2019 г.</div>
+          <div class="tweet-text font-size-small">
+            <p>Машина получающая топливо из эфира «У такой смеси низкое содержание смол и серы, это обеспечивает чистоту топливной системы автомобиля. Топливо на испытаниях показало совместимость с обычным автомобильным двигателем без модификаций» <a href="http://getbootstrap.com" title="ссылка">фото водяной машины</a></p>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <p class="footer-copyright">
+             &copy; Павел Филинских 2018<br/>
+             Сверстано на скорую руку с <i class="fa fa-heart"> </i> в
+             <a class="footer-link" href="http://getbootstrap.com" target="_blank">Bootstrap</a>
+             в 2018 году
+          </p>
+        </footer>
+
+      </div>
+    </div>
+  </div>
 
   <script src="libs/jquery/jquery-3.3.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
